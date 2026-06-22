@@ -438,6 +438,20 @@ section { padding: 120px 0; min-height: 100vh; display: flex; flex-direction: co
     color: #fff;
 }
 
+.pub-publisher {
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.pub-publisher::before {
+    content: '📖 ';
+    font-size: 0.85rem;
+}
+
 .pub-link {
     display: inline-block;
     margin-top: 1.5rem;
