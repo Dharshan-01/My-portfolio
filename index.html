@@ -39,7 +39,9 @@
         <div class="nav-links">
             <a href="#about">About</a>
             <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
             <a href="#publications">Publications</a>
+            <a href="#badges">Badges</a>
             <a href="#certifications">Certificates</a>
             <a href="#contact">Contact</a>
         </div>
@@ -58,21 +60,51 @@
                 <h1 class="glitch-title" data-text="I build intelligent AI models & web backends.">I build <span>intelligent</span> AI models & web backends.</h1>
                 <p class="hero-desc">I am an ML Engineer interested in AI, building robust Python backends and crafting frontends seamlessly with Figma and AI prompting.</p>
                 <div class="actions">
-                    <a href="#experience" class="btn-neon">View My Work</a>
+                    <a href="#projects" class="btn-neon">View My Work</a>
                     <a href="#about" class="btn-outline">Learn More</a>
                     <a href="CV.pdf" download="Dharshna_Kumar_KS_Resume.pdf" target="_blank" class="btn-outline">Download Resume</a>
                 </div>
                 <div class="social-links reveal delay-1">
-                    <a href="https://github.com/dharshan-01" target="_blank" class="social-btn">GitHub</a>
-                    <a href="https://www.linkedin.com/in/dharshna-kumar-k-s" target="_blank" class="social-btn">LinkedIn</a>
-                    <a href="https://www.hackerrank.com/profile/dharshan_dh1212" target="_blank" class="social-btn">HackerRank</a>
-                    <a href="https://leetcode.com/u/Dharshan_0_1" target="_blank" class="social-btn">LeetCode</a>
+                    <a href="https://github.com/dharshan-01" target="_blank" rel="noopener noreferrer" class="social-btn">GitHub</a>
+                    <a href="https://www.linkedin.com/in/dharshna-kumar-k-s" target="_blank" rel="noopener noreferrer" class="social-btn">LinkedIn</a>
+                    <a href="https://www.hackerrank.com/profile/dharshan_dh1212" target="_blank" rel="noopener noreferrer" class="social-btn">HackerRank</a>
+                    <a href="https://leetcode.com/u/Dharshan_0_1" target="_blank" rel="noopener noreferrer" class="social-btn">LeetCode</a>
+                    <a href="https://www.credly.com/users/dharshna-kumar-k-s" target="_blank" rel="noopener noreferrer" class="social-btn">Credly</a>
                 </div>
             </div>
 
             <div class="hero-image-wrapper reveal reveal-right delay-2">
                 <div class="neon-frame">
                     <img src="images/portfolio img.png" alt="My Profile Picture" style="filter: grayscale(100%) contrast(120%);">
+                </div>
+
+                <!-- Floating Badges orbiting profile photo -->
+                <div class="floating-badge badge-top-left">
+                    <a href="#badges" title="AWS Certified Cloud Practitioner">
+                        <img src="images/badge_aws_cloud_practitioner.png" alt="AWS Cloud Practitioner">
+                        <span class="badge-tooltip">AWS Cloud</span>
+                    </a>
+                </div>
+
+                <div class="floating-badge badge-top-right">
+                    <a href="#badges" title="Oracle OCI AI Foundations Associate">
+                        <img src="images/badge_oracle_ai.png" alt="Oracle OCI AI">
+                        <span class="badge-tooltip">Oracle AI</span>
+                    </a>
+                </div>
+
+                <div class="floating-badge badge-bottom-left">
+                    <a href="#badges" title="MongoDB Certified Associate Developer">
+                        <img src="images/badge_mongodb.png" alt="MongoDB Associate Developer">
+                        <span class="badge-tooltip">MongoDB</span>
+                    </a>
+                </div>
+
+                <div class="floating-badge badge-bottom-right">
+                    <a href="#badges" title="AWS Cloud Quest Trained">
+                        <img src="images/badge_aws_cloud_quest.png" alt="AWS Cloud Quest">
+                        <span class="badge-tooltip">Cloud Quest</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -150,6 +182,202 @@
         </div>
     </section>
 
+    <section class="container" id="projects">
+        <h2 class="section-title reveal" data-text="Featured Projects">Featured Projects</h2>
+        <p class="section-subtitle reveal delay-1">Architecting Intelligent Systems, Machine Learning Pipelines & Agentic Workflows.</p>
+
+        <div class="projects-filter-bar reveal delay-1">
+            <button class="filter-btn active" data-filter="all">All Systems [6]</button>
+            <button class="filter-btn" data-filter="genai">GenAI & Agents [2]</button>
+            <button class="filter-btn" data-filter="ml">Machine Learning [2]</button>
+            <button class="filter-btn" data-filter="vision">Computer Vision [2]</button>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="neon-card project-card reveal" data-category="genai">
+                <div>
+                    <div class="project-card-header">
+                        <span class="project-category">GenAI & Agents</span>
+                        <span class="project-badge">LangGraph</span>
+                    </div>
+                    <h3 class="card-title">Smart Data Assistant</h3>
+                    <p class="card-desc">An intelligent multi-agent conversational engine utilizing LangGraph and Google Gemini to query, analyze, and manipulate structured datasets with automated SQL schema execution on serverless Neon PostgreSQL.</p>
+                    <div class="tech-stack-mini">
+                        <span>Python</span>
+                        <span>LangGraph</span>
+                        <span>Gemini API</span>
+                        <span>Neon DB</span>
+                        <span>FastAPI</span>
+                    </div>
+                </div>
+                <div class="project-card-footer">
+                    <div class="project-links">
+                        <a href="https://github.com/Dharshan-01/magic-data-assistant---langgraph" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="neon-card project-card reveal delay-1" data-category="genai">
+                <div>
+                    <div class="project-card-header">
+                        <span class="project-category">Legal Tech & NLP</span>
+                        <span class="project-badge">Gemini LLM</span>
+                    </div>
+                    <h3 class="card-title">Legal Contract & Risk Assistant</h3>
+                    <p class="card-desc">Automated contract risk assessment bot leveraging Google Gemini API and NLP to dissect commercial agreements, identify indemnification traps, detect hidden liabilities, and generate audit-ready risk scoring.</p>
+                    <div class="tech-stack-mini">
+                        <span>Python</span>
+                        <span>Gemini API</span>
+                        <span>NLP Analysis</span>
+                        <span>Risk Scoring</span>
+                        <span>Streamlit</span>
+                    </div>
+                </div>
+                <div class="project-card-footer">
+                    <div class="project-links">
+                        <a href="https://github.com/mukilbarath/Legal-Contract-Analysis-and-Risk-Assessment-Bot" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="neon-card project-card reveal delay-2" data-category="ml">
+                <div>
+                    <div class="project-card-header">
+                        <span class="project-category">Predictive Intelligence</span>
+                        <span class="project-badge">5 Ensemble Models</span>
+                    </div>
+                    <h3 class="card-title">Next-Gen Disaster Management System</h3>
+                    <p class="card-desc">Multi-hazard AI forecasting system powered by 5 machine learning models evaluating real-time weather telemetry to predict wildfires, floods, cyclones, earthquakes, and landslides with live sensor tracking and automated SOS alerts.</p>
+                    <div class="tech-stack-mini">
+                        <span>Machine Learning</span>
+                        <span>Ensemble Models</span>
+                        <span>Real-Time Sensors</span>
+                        <span>WhatsApp Alerts</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="project-card-footer">
+                    <div class="project-links">
+                        <a href="https://github.com/Dharshan-01/Disaster-Management-System" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="neon-card project-card reveal" data-category="vision">
+                <div>
+                    <div class="project-card-header">
+                        <span class="project-category">Computer Vision</span>
+                        <span class="project-badge">Deep Learning</span>
+                    </div>
+                    <h3 class="card-title">FloraScan AI — Leaf Disease Diagnosis</h3>
+                    <p class="card-desc">A deep learning diagnostic vision pipeline that accurately classifies foliar diseases across Bell Pepper, Potato, and Tomato crops from high-resolution leaf photos to prevent crop loss and advance sustainable agronomy.</p>
+                    <div class="tech-stack-mini">
+                        <span>Deep Learning</span>
+                        <span>CNN</span>
+                        <span>Computer Vision</span>
+                        <span>PyTorch</span>
+                        <span>AgriTech</span>
+                    </div>
+                </div>
+                <div class="project-card-footer">
+                    <div class="project-links">
+                        <a href="https://github.com/Dharshan-01/Leaf-disease-prediction" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="neon-card project-card reveal delay-1" data-category="ml">
+                <div>
+                    <div class="project-card-header">
+                        <span class="project-category">Enterprise AI</span>
+                        <span class="project-badge">Hybrid Architecture</span>
+                    </div>
+                    <h3 class="card-title">Hybrid AI Banking Chatbot</h3>
+                    <p class="card-desc">Developed for Infosys Springboard, this hybrid enterprise conversational system couples local machine learning intent classifiers with Google Gemini API to automate banking queries and significantly reduce API cost overhead.</p>
+                    <div class="tech-stack-mini">
+                        <span>Hybrid AI</span>
+                        <span>Gemini API</span>
+                        <span>Intent Classifier</span>
+                        <span>Python</span>
+                        <span>FinTech</span>
+                    </div>
+                </div>
+                <div class="project-card-footer">
+                    <div class="project-links">
+                        <a href="https://github.com/Dharshan-01/INFOSYS-bankingbot" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            Source Code
+                        </a>
+                        <a href="https://infosys-bankingbot.onrender.com/" target="_blank" rel="noopener noreferrer" class="project-link" title="Aurora Bank | Official Online Banking">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="neon-card project-card reveal delay-2" data-category="vision">
+                <div>
+                    <div class="project-card-header">
+                        <span class="project-category">Emotion AI & EdTech</span>
+                        <span class="project-badge">Computer Vision</span>
+                    </div>
+                    <h3 class="card-title">Classroom Engagement & Emotion AI</h3>
+                    <p class="card-desc">An AI platform addressing silent disengagement in education. Combines anonymous student telemetry, computer vision facial emotion analysis on lecture recordings, and Gemini AI pedagogical coaching tips for instructors.</p>
+                    <div class="tech-stack-mini">
+                        <span>Computer Vision</span>
+                        <span>Facial Emotion AI</span>
+                        <span>Gemini AI</span>
+                        <span>Analytics</span>
+                        <span>Flask</span>
+                    </div>
+                </div>
+                <div class="project-card-footer">
+                    <div class="project-links">
+                        <a href="https://github.com/Dharshan-01/Studetn-Teacher-dashboard" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="container" id="publications">
         <h2 class="section-title reveal" data-text="Publications">Publications</h2>
         <p class="section-subtitle reveal delay-1">Peer-reviewed research contributions in AI & Healthcare.</p>
@@ -193,6 +421,91 @@
                 </div>
                 <div class="pub-publisher">Springer</div>
                 <a href="https://doi.org/10.1007/978-3-032-19681-1_25" target="_blank" class="pub-link">View Paper →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="badges">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 2.5rem;">
+            <div>
+                <h2 class="section-title reveal" data-text="Verified Badges">Verified Badges</h2>
+                <p class="section-subtitle reveal delay-1" style="margin-bottom: 0;">Industry-Recognized Cloud, Database & AI Credentials.</p>
+            </div>
+            <div class="reveal delay-1">
+                <a href="https://www.credly.com/users/dharshna-kumar-k-s" target="_blank" rel="noopener noreferrer" class="btn-neon" style="font-size: 0.8rem; padding: 0.65rem 1.4rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                    <span>View Profile on Credly</span>
+                    <span>↗</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="badges-grid">
+            <!-- Badge 1 -->
+            <div class="neon-card badge-card reveal">
+                <div class="badge-img-box">
+                    <img src="images/badge_mongodb.png" alt="MongoDB Certified Associate Developer">
+                </div>
+                <div class="badge-content">
+                    <span class="badge-issuer">MongoDB</span>
+                    <h3 class="card-title badge-title">MongoDB Certified Associate Developer</h3>
+                    <p class="card-desc">Certified proficiency in building robust applications with MongoDB, complex document modeling, aggregation pipelines, and production database queries.</p>
+                    <div class="badge-meta">
+                        <span class="badge-pill">Database</span>
+                        <span class="badge-pill">Associate</span>
+                    </div>
+                    <a href="https://www.credly.com/users/dharshna-kumar-k-s" target="_blank" rel="noopener noreferrer" class="pub-link" style="margin-top: 1rem;">Verify Credential →</a>
+                </div>
+            </div>
+
+            <!-- Badge 2 -->
+            <div class="neon-card badge-card reveal delay-1">
+                <div class="badge-img-box">
+                    <img src="images/badge_aws_cloud_practitioner.png" alt="AWS Certified Cloud Practitioner">
+                </div>
+                <div class="badge-content">
+                    <span class="badge-issuer">Amazon Web Services</span>
+                    <h3 class="card-title badge-title">AWS Certified Cloud Practitioner</h3>
+                    <p class="card-desc">Comprehensive validation of foundational AWS cloud concepts, core cloud services, architectural security best practices, compliance, and cloud economics.</p>
+                    <div class="badge-meta">
+                        <span class="badge-pill">AWS Cloud</span>
+                        <span class="badge-pill">Foundational</span>
+                    </div>
+                    <a href="https://www.credly.com/users/dharshna-kumar-k-s" target="_blank" rel="noopener noreferrer" class="pub-link" style="margin-top: 1rem;">Verify Credential →</a>
+                </div>
+            </div>
+
+            <!-- Badge 3 -->
+            <div class="neon-card badge-card reveal delay-2">
+                <div class="badge-img-box">
+                    <img src="images/badge_aws_cloud_quest.png" alt="AWS Cloud Quest: Cloud Practitioner">
+                </div>
+                <div class="badge-content">
+                    <span class="badge-issuer">Amazon Web Services</span>
+                    <h3 class="card-title badge-title">AWS Cloud Quest: Cloud Practitioner</h3>
+                    <p class="card-desc">Hands-on practical accreditation solving real-world business scenarios, designing cloud solutions, and deploying live infrastructure within the AWS console.</p>
+                    <div class="badge-meta">
+                        <span class="badge-pill">AWS Cloud</span>
+                        <span class="badge-pill">Hands-on Trained</span>
+                    </div>
+                    <a href="https://www.credly.com/users/dharshna-kumar-k-s" target="_blank" rel="noopener noreferrer" class="pub-link" style="margin-top: 1rem;">Verify Credential →</a>
+                </div>
+            </div>
+
+            <!-- Badge 4 -->
+            <div class="neon-card badge-card reveal">
+                <div class="badge-img-box">
+                    <img src="images/badge_oracle_ai.png" alt="Oracle Cloud Infrastructure AI Foundations Associate">
+                </div>
+                <div class="badge-content">
+                    <span class="badge-issuer">Oracle</span>
+                    <h3 class="card-title badge-title">OCI AI Foundations Associate (2025)</h3>
+                    <p class="card-desc">Certified understanding of fundamental artificial intelligence concepts, machine learning workloads, LLMs, and enterprise AI architectures on Oracle Cloud.</p>
+                    <div class="badge-meta">
+                        <span class="badge-pill">Oracle Cloud</span>
+                        <span class="badge-pill">Artificial Intelligence</span>
+                    </div>
+                    <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=17E7D7BADFCAB8109B9C4F0BB4ACC11F26DCD5811302284E30B65B6C880B666F" target="_blank" rel="noopener noreferrer" class="pub-link" style="margin-top: 1rem;">Verify Credential →</a>
+                </div>
             </div>
         </div>
     </section>
@@ -439,6 +752,27 @@
 
                 revealElements.forEach(el => observer.observe(el));
             }
+
+            // --- 6. Project Category Filtering ---
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    const filter = btn.getAttribute('data-filter');
+
+                    projectCards.forEach(card => {
+                        const category = card.getAttribute('data-category');
+                        if (filter === 'all' || category === filter) {
+                            card.classList.remove('filter-hidden');
+                        } else {
+                            card.classList.add('filter-hidden');
+                        }
+                    });
+                });
+            });
         });
     </script>
     
